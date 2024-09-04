@@ -1,0 +1,102 @@
+html {
+  font-size: 14px;
+}
+
+body{
+  background-color: cadetblue;
+}
+
+header{
+  background-color: rgb(152, 203, 205);
+}
+
+ul{
+  list-style: none;
+}
+
+input{
+  background-color: beige;
+  border-color: lightskyblue;
+}
+
+button{
+  background-color:rgb(123, 162, 201);
+  border: solid 1px blanchedalmond;
+  color: blanchedalmond;
+  transition: linear 200ms;
+}
+
+button:hover{
+  color: mediumslateblue;
+  border-radius: 5px;
+  transition: linear 200ms;
+}
+
+.pfp{
+  border-radius: 100%;
+  border: solid 5px darkcyan;
+}
+
+.infoH{
+  margin-left: 50px;
+}
+
+.imagemH{
+  margin-left: 100px;
+}
+
+.tudoH{
+  display: flex;
+  color: blanchedalmond;
+}
+
+.tudoSM{
+  color: blanchedalmond;
+  text-align: justify;
+  padding: 80px;
+}
+
+.tudoPort{
+  color: blanchedalmond;
+}
+
+.tudoO{
+  color: blanchedalmond;
+  text-align: justify;
+  padding: 15px;
+}
+
+.imagensSM{
+  display: flex;
+}
+
+.linkGit{
+  color: rgba(255, 235, 205, 0.612);
+  text-decoration: none;
+  transition: linear 200ms;
+}
+
+.linkGit:hover{
+  color: blanchedalmond;
+  text-decoration: none;
+  transition: linear 200ms;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem rgb(151, 211, 213), 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
